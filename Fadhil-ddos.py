@@ -49,8 +49,7 @@ logo = """
 faded_text = fade.fire(logo)
 print(faded_text)
 while attemps < 100:
-    username = input("\033
-	[33mEnter your username: \033[0m")
+    username = input("\033[33mEnter your username: \033[0m")
     password = input("\033[32mEnter your password: \033[0m")
 
     if username == 'salman' and password == 'kondangan-dl':
